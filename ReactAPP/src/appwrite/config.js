@@ -96,6 +96,7 @@ export class Service{
         }
     }
 
+    // file upload service
 
     async uploadFile(file){
         try {
@@ -133,4 +134,4 @@ export class Service{
 
 
 const service = new Service()
-export default service
+export default service;
